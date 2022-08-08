@@ -19,20 +19,21 @@ time, mark, audio, video {
     padding:0;
     border:0;
     outline:0;
-    font-size:100%;
+    /* font-size:100%; */
     vertical-align:baseline;
     background:transparent;
-    box-sizing: border-box; /* 自己補充 */
+    /* box-sizing: border-box; */ /* 自己補充 */  /*  計算會錯誤不要全都加  */ 
+     
 }
 @import url('https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans&display=swap');
-@font-face{
+/* @font-face{
   font-family:TaipeiSansTCBeta;
-  src: url(./font/TaipeiSansTCBeta-Regular.ttf);
+  src: url(./font/TaipeiSansTCBeta-Regular.ttf);  沒用到
 }
 @font-face{
   font-family:Polaroid-Regular;
-  src: url(./font/Polaroid-Regular.otf);
-}
+  src: url(./font/Polaroid-Regular.otf);沒用到
+} */
 
 
 /* -------------共用區------------- */
@@ -46,8 +47,8 @@ nav{
   width: 100%;
   position: fixed;
   right: 0;
-  top: 5%;
-  margin-top: -2.5em;
+  top: 0;
+  /* margin-top: -2.5em; */
   z-index: 999;
   background-color: #fff;
 
@@ -169,27 +170,25 @@ header nav ul li{
 
 
 * {
-  box-sizing: border-box;
-  scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
+  /* box-sizing: border-box;   /*  計算會錯誤不要全都加  
+  scrollbar-color: transparent transparent; */
+   /* thumb and track color */
+  /* scrollbar-width: 0px; */  
 }
 
-*::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0;
 }
 
-*::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: transparent;
 }
 
-*::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
 
-* {
-  -ms-overflow-style: none;
-}
 
 ol, li {
   list-style: none;
