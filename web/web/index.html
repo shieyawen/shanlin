@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-Tw">
+    <head>
+        <!-- 網站文字編碼方式 -->
+        <meta charset="UTF-8">
+        <!-- 將IE瀏覽器升級致可用最新版本 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- RWD基本設定 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO關鍵字優化 -->
+        <meta name="description" content="網頁簡述">
+        <meta name="keywords" content="網頁關鍵字">
+        <meta name="company" content="公司名稱">
+        <title>山林印刷有限公司 | 印刷、包裝、設計</title>
+        <!-- 網頁標題縮圖 -->
+        <link rel="icon" href="/favicon.ico">
+        <!-- 重新設定css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- 自訂的css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- JQ原生碼 -->
+        <script src="script/jquery-3.6.0.min.js"></script>
+        <!-- 自訂的jq -->
+        <script src="script/myscript.js"></script>
+         
+    </head>
+    <body>
+        <header>
+              <!-- 導覽列桌機版 -->
+            <nav>
+              <div class="navlogo"><a href="index.html"><img src="./images/logo01.png" alt="山林印刷有限公司LOGO"></a></div>
+              <ul id="menu1">
+                  <li>
+                    <a href="aboutus.html" class="sidebar-anchor">
+                      <b class="before">公司簡介</b>
+                      <b class="after">About Us</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="sidebar-anchor">
+                      <b class="before">設備介紹</b>
+                      <b class="after">Equipment</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="products.html" class="sidebar-anchor">
+                      <b class="before">產品介紹</b>
+                      <b class="after">Products</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="client.html" class="sidebar-anchor">
+                      <b class="before">合作客戶</b>
+                      <b class="after">Client</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contactsus.html" class="sidebar-anchor">
+                      <b class="before">聯絡我們</b>
+                      <b class="after">Contacts Us</b>
+                    </a>
+                  </li>
+              </ul>
+            </nav>
+            <!-- 導覽列手機版 -->
+        <div class="nav-right visible-xs">
+          <a class="button" id="btn">
+              <div class="bar top"></div>
+              <div class="bar middle"></div>
+              <div class="bar bottom"></div>
+          </a>
+      </div>
+      <!-- nav-right -->
+      <div class="sidebar">
+          <ul class="sidebar-list">
+              <li class="sidebar-item">
+                  <a href="aboutus.html" class="sidebar-anchor">
+                      <b class="before">公司簡介</b>
+                      <b class="after">About Us</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="" class="sidebar-anchor">
+                      <b class="before">設備介紹</b>
+                      <b class="after">Equipment</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="products.html" class="sidebar-anchor">
+                      <b class="before">產品介紹</b>
+                      <b class="after">Products</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="client.html" class="sidebar-anchor">
+                      <b class="before">合作客戶</b>
+                      <b class="after">Client</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="contactsus.html" class="sidebar-anchor">
+                      <b class="before">聯絡我們</b>
+                      <b class="after">Contacts Us</b>
+                  </a>
+              </li>
+          </ul>
+      </div>
+              
+           
+        </header>
+        <div class="carousellogo">
+          <img src="./images/logo02.png" alt="山林印刷有限公司LOGO">
+        </div>
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/1.jpg" alt="">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide4"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/2.jpg" alt="">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/3.jpg" alt="">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/4.jpg" alt="">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1"
+                   class="carousel__next">Go to first slide</a>
+                  </div>
+              </li>
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide1"
+                     class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide2"
+                     class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide3"
+                     class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide4"
+                     class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+              </ol>
+            </aside>
+          </section>
+         
+    </body>
+</html>

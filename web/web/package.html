@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-Tw">
+    <head>
+        <!-- 網站文字編碼方式 -->
+        <meta charset="UTF-8">
+        <!-- 將IE瀏覽器升級致可用最新版本 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- RWD基本設定 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO關鍵字優化 -->
+        <meta name="description" content="網頁簡述">
+        <meta name="keywords" content="網頁關鍵字">
+        <meta name="company" content="公司名稱">
+        <title>山林印刷有限公司 | 印刷、包裝、設計</title>
+        <!-- 網頁標題縮圖 -->
+        <link rel="icon" href="/favicon.ico">
+        <!-- 重新設定css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- 自訂的css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- JQ原生碼 -->
+        <script src="script/jquery-3.6.0.min.js"></script>
+        <!-- 自訂的jq -->
+        <script src="script/myscript.js"></script>
+        <!-- JS語法連結 -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script>
+          !window.jQuery && document.write('<script src="./script/jquery-1.4.3.min.js"><\/script>');
+        </script>
+        <script type="text/javascript" src="./script/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript" src="./script/jquery.fancybox-1.3.4.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox-1.3.4.css" media="screen" />
+        <script type="text/javascript">
+          $(document).ready(function() {
+      
+            $("a[rel=example_group]").fancybox({
+              'transitionIn'		: 'none',
+              'transitionOut'		: 'none',
+              'titlePosition' 	: 'over',
+              'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+              }
+            });
+          });
+        </script>
+    </head>
+    <body>
+        <header>
+             <!-- 導覽列桌機版 -->
+             <nav>
+              <div class="navlogo"><a href="index.html"><img src="./images/logo01.png" alt="山林印刷有限公司LOGO"></a></div>
+              <ul id="menu1">
+                  <li>
+                    <a href="aboutus.html" class="sidebar-anchor">
+                      <b class="before">公司簡介</b>
+                      <b class="after">About Us</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="sidebar-anchor">
+                      <b class="before">設備介紹</b>
+                      <b class="after">Equipment</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="products.html" class="sidebar-anchor">
+                      <b class="before">產品介紹</b>
+                      <b class="after">Products</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="client.html" class="sidebar-anchor">
+                      <b class="before">合作客戶</b>
+                      <b class="after">Client</b>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contactsus.html" class="sidebar-anchor">
+                      <b class="before">聯絡我們</b>
+                      <b class="after">Contacts Us</b>
+                    </a>
+                  </li>
+              </ul>
+            </nav>
+            <!-- 導覽列手機版 -->
+        <div class="nav-right visible-xs">
+          <a class="button" id="btn">
+              <div class="bar top"></div>
+              <div class="bar middle"></div>
+              <div class="bar bottom"></div>
+          </a>
+      </div>
+      <!-- nav-right -->
+      <div class="sidebar">
+          <ul class="sidebar-list">
+              <li class="sidebar-item">
+                  <a href="aboutus.html" class="sidebar-anchor">
+                      <b class="before">公司簡介</b>
+                      <b class="after">About Us</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="" class="sidebar-anchor">
+                      <b class="before">設備介紹</b>
+                      <b class="after">Equipment</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="products.html" class="sidebar-anchor">
+                      <b class="before">產品介紹</b>
+                      <b class="after">Products</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="client.html" class="sidebar-anchor">
+                      <b class="before">合作客戶</b>
+                      <b class="after">Client</b>
+                  </a>
+              </li>
+              <li class="sidebar-item">
+                  <a href="contactsus.html" class="sidebar-anchor">
+                      <b class="before">聯絡我們</b>
+                      <b class="after">Contacts Us</b>
+                  </a>
+              </li>
+          </ul>
+      </div>
+        </header>
+        <p>      
+          <a rel="example_group" href="./example/9_b.jpg" title="Lorem ipsum dolor sit amet"><img alt="" src="./example/9_s.jpg" /></a>
+      
+          <a rel="example_group" href="./example/10_b.jpg" title=""><img alt="" src="./example/10_s.jpg" /></a>
+      
+          <a rel="example_group" href="./example/11_b.jpg" title=""><img alt="" src="./example/11_s.jpg" /></a>
+          
+          <a rel="example_group" href="./example/12_b.jpg" title=""><img class="last" alt="" src="./example/12_s.jpg" /></a>
+        </p>
+        <div class="container">
+          <div class="card-columns">
+            <a class="card card-reveal" rel="example_group" href="images/1.jpg">
+              <img class="card-img-top" src="images/1.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/2.jpg">
+              <img class="card-img-top" src="images/2.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/3.jpg">
+              <img class="card-img-top" src="images/3.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group"  href="images/4.jpg">
+              <img class="card-img-top" src="images/4.jpg"/>
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group"  href="images/5.jpg">
+              <img class="card-img-top" src="images/5.jpg"/>
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/1.jpg">
+              <img class="card-img-top" src="images/1.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/2.jpg">
+              <img class="card-img-top" src="images/2.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/3.jpg">
+              <img class="card-img-top" src="images/3.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group"  href="images/4.jpg">
+              <img class="card-img-top" src="images/4.jpg"/>
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group"  href="images/5.jpg">
+              <img class="card-img-top" src="images/5.jpg"/>
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/1.jpg">
+              <img class="card-img-top" src="images/1.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+            <a class="card card-reveal" rel="example_group" href="images/2.jpg">
+              <img class="card-img-top" src="images/2.jpg">
+              <div class="card-body">
+                <div class="card-title">XXXXXXXXXX</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <footer>
+          <div class="footerlogo"><a href="index.html"><img src="./images/logo01.png" alt="山林印刷有限公司LOGO"></a></div>
+            <div class="footerp">
+              <P>山林印刷有限公司</P>
+              <p>統一編號 XXXXXXXX</p>
+              <p>service@shanlin.com</p>
+              <p>11174台北市士林區延平北路七段176巷200之3號</p>
+              <div class="small"><small>Copyright © 2022 Shanlin. All rights reserved.</small></div>
+            </div>
+            <div id="icon1">
+              <div class="icon">
+                <a href="https://www.facebook.com/beverlydesign" target="_blank"></a>
+              </div>
+              <div class="icon1">
+                <a href="https://www.instagram.com/beverlydesign.co/" target="_blank"></a>
+            </div>
+            </div>
+          </div>
+        </footer>
+    </body>
+</html>
